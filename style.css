@@ -1,0 +1,68 @@
+#globalContainer {
+    width: calc( 100% - 300px) !important;
+    min-width: 1014px;
+}
+#contentArea {
+    width: calc( 100% - 40px ) !important;
+    min-width: 502px;
+}
+
+/* delete fucking recomendation panel*/
+#rightCol {
+    display: none;
+}
+
+/* delete 'many activity' panel */
+._3pk8{
+    display:none;
+}
+
+/* delete right chat panel */
+.sidebarMode .fbChatSidebar{
+		display:none; 
+}
+
+._2yq ._2t-d, ._2xk0 ._2t-d{
+    width: calc(100% - 100px);
+}
+
+.timelineLayout #contentArea {
+    width: calc( 100% - 330px) !important;
+    min-width: 502px;
+}
+._5nb8 {
+    width: calc(100% - 345px);
+    min-width: 512px;
+}
+li._4lh .fbTimelineTwoColumn[data-type="s"] {
+    width: calc(100% - 345px);
+    min-width: 512px;
+}
+.timelineLayout #contentArea {
+    max-width: 100% !important;
+    width: calc( 100% - 150px)!important;
+}
+._4_7u {
+    max-width: 100% !important;
+    width: calc( 100% - 350px)!important;
+}
+.fbTimelineUnit {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.fbTimelineTwoColumn {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.timelineUnitContainer {
+    max-width: 100% !important;
+    width: calc( 100% - 25px)!important;
+}
+.fbTimelineUFI {
+    max-width: 200% !important;
+    width: calc( 100% + 20px)!important;
+}
+.letterboxedImage {
+    max-width: 200% !important;
+    width: 100% !important;
+}
