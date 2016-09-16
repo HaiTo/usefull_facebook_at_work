@@ -1,12 +1,3 @@
-#globalContainer {
-    width: calc( 100% - 300px) !important;
-    min-width: 1014px;
-}
-#contentArea {
-    width: calc( 100% - 40px ) !important;
-    min-width: 502px;
-}
-
 /* delete fucking recomendation panel*/
 #rightCol {
     display: none;
@@ -19,13 +10,25 @@
 
 /* delete right chat panel */
 .sidebarMode .fbChatSidebar{
-		display:none; 
+		display:none;
 }
 
+
+/* spread TimeLine */
+#contentArea {
+    width: calc( 100% - 40px ) !important;
+    min-width: 502px;
+}
+#headerArea{
+    width: calc( 100% - 40px ) !important;
+    min-width: 502px;
+}
+.sidebarMode #globalContainer{
+   padding-right: 0px;
+}
 ._2yq ._2t-d, ._2xk0 ._2t-d{
     width: calc(100% - 100px);
 }
-
 .timelineLayout #contentArea {
     width: calc( 100% - 330px) !important;
     min-width: 502px;
@@ -65,4 +68,15 @@ li._4lh .fbTimelineTwoColumn[data-type="s"] {
 .letterboxedImage {
     max-width: 200% !important;
     width: 100% !important;
+}
+@media screen and (max-width: 1200px) {
+    #globalContainer {
+        width: calc( 100% - 100px) !important;
+        min-width: 500px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    #globalContainer {
+        width: 1200px !important;
+    }
 }
