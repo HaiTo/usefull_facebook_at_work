@@ -13,11 +13,6 @@
 	display:none;
 }
 
-/* delete facebook logo */
-._2md{
-    display:none;
-}
-
 /* spread TimeLine */
 #contentArea {
     width: calc( 100% - 40px ) !important;
@@ -85,19 +80,8 @@ li._4lh .fbTimelineTwoColumn[data-type="s"] {
     }
 }
 
-/* Centering search bar */
-@media screen and (max-width: 1540px) {
-    ._4kny ._585- {
-        margin-left: 10%;
-    }
-}
-@media screen and (max-width: 950px) {
-    ._4kny ._585- {
-        margin-left: 0%;
-    }
-}
-@media screen and (min-width: 1541px) {
-    ._4kny ._585- {
-        margin-left: 50%;
-    }
+/* centering contents bar */
+.sidebarMode ._50tj{
+    padding-right: 25%;
+    padding-left: 25%;
 }
