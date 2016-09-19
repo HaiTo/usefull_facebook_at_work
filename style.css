@@ -1,3 +1,4 @@
+@-moz-document domain("facebook.com") {
 /* Stylish domain match 'facebook.com' */
 /* delete 'many activity' panel */
 ._3pk8 {
@@ -94,4 +95,53 @@ li._4lh .fbTimelineTwoColumn[data-type="s"] {
         padding-right: 25%;
         padding-left: 25%;
     }
+}
+
+}
+
+@-moz-document regexp(".*facebook.com/groups/.*") {
+/* Stylish reg match '.*facebook.com/groups/.*' */
+/* fucking right recomendation panel*/
+#rightCol ._4-u2._3-96._4-u8:nth-of-type(n+2) {
+    display: none;
+}
+#rightCol {
+    width: 100% !important;
+    min-width: 502px;
+    float:left;
+    display:block;
+}
+#pagelet_rhc_footer {
+    display: none;
+}
+.fixed_elem,
+.fixed_always {
+    position: absolute !important;
+    top: 0px !important;
+}
+._5ks6{
+    height:40px;
+    width:40px;
+    padding:0px;
+}
+#groupsRHCMembersFacepile,
+.profileBrowserGrid,
+._5ks4{
+    height:40px;
+    width:100%;
+}
+#groupsNewMembersLink div:nth-of-type(3){
+    display:none;
+}
+#groupsNewMembersLink{
+    display:none;
+}
+}
+
+@-moz-document regexp(".*facebook.com/(?!.*groups).*") {
+/* Stylish reg match '.*facebook.com/$' */
+/* fucking right recomendation panel*/
+#rightCol{
+    display:none;
+}
 }
