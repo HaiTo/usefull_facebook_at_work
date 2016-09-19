@@ -11,11 +11,11 @@
 
 /* spread TimeLine */
 #contentArea {
-    width: calc( 100% - 40px ) !important;
+    width: 100%  !important;
     min-width: 502px;
 }
 #headerArea{
-    width: calc( 100% - 40px ) !important;
+    width: 100% !important;
     min-width: 502px;
 }
 .sidebarMode #globalContainer{
