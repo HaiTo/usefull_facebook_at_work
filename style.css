@@ -3,26 +3,25 @@
 ._3pk8 {
     display: none;
 }
+
 /* delete right chat panel */
-
-.sidebarMode .fbChatSidebar {
-    display: none;
+.sidebarMode .fbChatSidebar{
+	display:none;
 }
+
 /* spread TimeLine */
-
 #contentArea {
-    width: 100%  !important;
+    width: calc( 100% - 40px ) !important;
     min-width: 502px;
 }
-#headerArea {
-    width: 100% !important;
+#headerArea{
+    width: calc( 100% - 40px ) !important;
     min-width: 502px;
 }
-.sidebarMode #globalContainer {
-    padding-right: 0px;
+.sidebarMode #globalContainer{
+   padding-right: 0px;
 }
-._2yq ._2t-d,
-._2xk0 ._2t-d {
+._2yq ._2t-d, ._2xk0 ._2t-d{
     width: calc(100% - 100px);
 }
 .timelineLayout #contentArea {
@@ -76,10 +75,10 @@ li._4lh .fbTimelineTwoColumn[data-type="s"] {
         width: 1200px !important;
     }
 }
-/* centering contents bar */
 
+/* centering contents bar */
 @media screen and (max-width: 2000px) {
-    .sidebarMode ._50tj {
+    .sidebarMode ._50tj{
         padding-right: 20%;
         padding-left: 20%;
     }
@@ -91,7 +90,7 @@ li._4lh .fbTimelineTwoColumn[data-type="s"] {
     }
 }
 @media screen and (min-width: 2001px) {
-    .sidebarMode ._50tj {
+    .sidebarMode ._50tj{
         padding-right: 25%;
         padding-left: 25%;
     }
