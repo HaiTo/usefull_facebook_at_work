@@ -15,6 +15,17 @@
         width: 100%  !important;
         min-width: 502px;
     }
+
+    /* delete Company Logo */
+    #pagelet_company_logo {
+        display: none;
+    }
+
+    /* delete group icons */
+    .imgWrap {
+        display: none;
+    }
+
     #headerArea{
         width: 100% !important;
         min-width: 502px;
