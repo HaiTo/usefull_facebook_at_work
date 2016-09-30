@@ -1,147 +1,146 @@
 @-moz-document domain("facebook.com") {
-/* Stylish domain match 'facebook.com' */
-/* delete 'many activity' panel */
-._3pk8 {
-    display: none;
-}
+    /* Stylish domain match 'facebook.com' */
+    /* delete 'many activity' panel */
+    ._3pk8 {
+        display: none;
+    }
 
-/* delete right chat panel */
-.sidebarMode .fbChatSidebar{
-	display:none;
-}
+    /* delete right chat panel */
+    .sidebarMode .fbChatSidebar{
+        display:none;
+    }
 
-/* spread TimeLine */
-#contentArea {
-    width: 100%  !important;
-    min-width: 502px;
-}
-#headerArea{
-    width: 100% !important;
-    min-width: 502px;
-}
-.sidebarMode #globalContainer{
-   padding-right: 0px;
-}
-._2yq ._2t-d, ._2xk0 ._2t-d{
-    width: calc(100% - 100px);
-}
-.timelineLayout #contentArea {
-    width: calc( 100% - 330px) !important;
-    min-width: 502px;
-}
-._5nb8 {
-    width: calc(100% - 345px);
-    min-width: 512px;
-}
-li._4lh .fbTimelineTwoColumn[data-type="s"] {
-    width: calc(100% - 345px);
-    min-width: 512px;
-}
-.timelineLayout #contentArea {
-    max-width: 100% !important;
-    width: calc( 100% - 150px)!important;
-}
-._4_7u {
-    max-width: 100% !important;
-    width: calc( 100% - 350px)!important;
-}
-.fbTimelineUnit {
-    max-width: 100% !important;
-    width: 100% !important;
-}
-.fbTimelineTwoColumn {
-    max-width: 100% !important;
-    width: 100% !important;
-}
-.timelineUnitContainer {
-    max-width: 100% !important;
-    width: calc( 100% - 25px)!important;
-}
-.fbTimelineUFI {
-    max-width: 200% !important;
-    width: calc( 100% + 20px)!important;
-}
-.letterboxedImage {
-    max-width: 200% !important;
-    width: 100% !important;
-}
-@media screen and (max-width: 1200px) {
-    #globalContainer {
-        width: calc( 100% - 100px) !important;
-        min-width: 500px;
+    /* spread TimeLine */
+    #contentArea {
+        width: 100%  !important;
+        min-width: 502px;
     }
-}
-@media screen and (min-width: 1201px) {
-    #globalContainer {
-        width: 1200px !important;
+    #headerArea{
+        width: 100% !important;
+        min-width: 502px;
     }
-}
+    .sidebarMode #globalContainer{
+    padding-right: 0px;
+    }
+    ._2yq ._2t-d, ._2xk0 ._2t-d{
+        width: calc(100% - 100px);
+    }
+    .timelineLayout #contentArea {
+        width: calc( 100% - 330px) !important;
+        min-width: 502px;
+    }
+    ._5nb8 {
+        width: calc(100% - 345px);
+        min-width: 512px;
+    }
+    li._4lh .fbTimelineTwoColumn[data-type="s"] {
+        width: calc(100% - 345px);
+        min-width: 512px;
+    }
+    .timelineLayout #contentArea {
+        max-width: 100% !important;
+        width: calc( 100% - 150px)!important;
+    }
+    ._4_7u {
+        max-width: 100% !important;
+        width: calc( 100% - 350px)!important;
+    }
+    .fbTimelineUnit {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .fbTimelineTwoColumn {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .timelineUnitContainer {
+        max-width: 100% !important;
+        width: calc( 100% - 25px)!important;
+    }
+    .fbTimelineUFI {
+        max-width: 200% !important;
+        width: calc( 100% + 20px)!important;
+    }
+    .letterboxedImage {
+        max-width: 200% !important;
+        width: 100% !important;
+    }
+    @media screen and (max-width: 1200px) {
+        #globalContainer {
+            width: calc( 100% - 100px) !important;
+            min-width: 500px;
+        }
+    }
+    @media screen and (min-width: 1201px) {
+        #globalContainer {
+            width: 1200px !important;
+        }
+    }
 
-/* centering contents bar */
-@media screen and (max-width: 2000px) {
-    .sidebarMode ._50tj{
-        padding-right: 20%;
-        padding-left: 20%;
+    /* centering contents bar */
+    @media screen and (max-width: 2000px) {
+        .sidebarMode ._50tj{
+            padding-right: 20%;
+            padding-left: 20%;
+        }
     }
-}
-@media screen and (max-width: 1600px) {
-    .sidebarMode ._50tj {
-        padding-right: 10%;
-        padding-left: 10%;
+    @media screen and (max-width: 1600px) {
+        .sidebarMode ._50tj {
+            padding-right: 10%;
+            padding-left: 10%;
+        }
     }
-}
-@media screen and (min-width: 2001px) {
-    .sidebarMode ._50tj{
-        padding-right: 25%;
-        padding-left: 25%;
+    @media screen and (min-width: 2001px) {
+        .sidebarMode ._50tj{
+            padding-right: 25%;
+            padding-left: 25%;
+        }
     }
-}
-
 }
 
 @-moz-document regexp(".*facebook.com/groups/.*") {
 /* Stylish reg match '.*facebook.com/groups/.*' */
-/* fucking right recomendation panel*/
-#rightCol ._4-u2._3-96._4-u8:nth-of-type(n+2) {
-    display: none;
-}
-#rightCol {
-    width: 100% !important;
-    min-width: 502px;
-    float:left;
-    display:block;
-}
-#pagelet_rhc_footer {
-    display: none;
-}
-.fixed_elem,
-.fixed_always {
-    position: absolute !important;
-    top: 0px !important;
-}
-._5ks6{
-    height:40px;
-    width:40px;
-    padding:0px;
-}
-#groupsRHCMembersFacepile,
-.profileBrowserGrid,
-._5ks4{
-    height:40px;
-    width:100%;
-}
-#groupsNewMembersLink div:nth-of-type(3){
-    display:none;
-}
-#groupsNewMembersLink{
-    display:none;
-}
+    /* fucking right recomendation panel*/
+    #rightCol ._4-u2._3-96._4-u8:nth-of-type(n+2) {
+        display: none;
+    }
+    #rightCol {
+        width: 100% !important;
+        min-width: 502px;
+        float:left;
+        display:block;
+    }
+    #pagelet_rhc_footer {
+        display: none;
+    }
+    .fixed_elem,
+    .fixed_always {
+        position: absolute !important;
+        top: 0px !important;
+    }
+    ._5ks6{
+        height:40px;
+        width:40px;
+        padding:0px;
+    }
+    #groupsRHCMembersFacepile,
+    .profileBrowserGrid,
+    ._5ks4{
+        height:40px;
+        width:100%;
+    }
+    #groupsNewMembersLink div:nth-of-type(3){
+        display:none;
+    }
+    #groupsNewMembersLink{
+        display:none;
+    }
 }
 
 @-moz-document regexp(".*facebook.com/(?!.*groups).*") {
 /* Stylish reg match '.*facebook.com/$' */
-/* fucking right recomendation panel*/
-#rightCol{
-    display:none;
-}
+    /* fucking right recomendation panel*/
+    #rightCol{
+        display:none;
+    }
 }
